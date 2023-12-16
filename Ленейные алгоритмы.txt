@@ -1,0 +1,35 @@
+1 ЗАДАЧА
+
+a = float(input("Введите длину ребра куба: ")) 
+V = a ** 3 
+S = 6 * a ** 2 
+print("Объем куба:", V) 
+print("Площадь боковой поверхности:", S) 
+
+
+
+
+
+2 ЗАДАЧА
+
+#import math
+from math import pi
+L = float(input("Введите длину окружности:"))
+S = L**2/4*pi
+print(S)
+
+
+
+
+
+3 ЗАДАЧА
+
+a = float(input())
+b = float(input())
+
+S = a*b
+P = 2*a + 2*b
+D = (a**2+b**2)**0.5
+
+print(S, P, D)
+
