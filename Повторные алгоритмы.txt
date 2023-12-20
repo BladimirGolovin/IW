@@ -32,10 +32,9 @@ x = float(input("Введите действительное число x: "))
 n = int(input("Введите натуральное число n: "))
 result = 0
 denominator = 1
-for i in range(n):
+for i in range(n+1):
     denominator *= (x + i)
     result += 1/denominator
-result += 1/x
 print("Результат вычисления:", result)
 
 
