@@ -43,11 +43,15 @@ print("Результат вычисления:", result)
 
 2 ЗАДАНИЕ (3)
 
+x = int(input())
 n = int(input())
+
 factorial = 1
-for i in range(1, n+1);
+result = 0
+for i in range(1, n+1):
     factorial *=i
-print(factorial)
+    result += pow(x,i) / factorial
+print(result)
 
 
 
